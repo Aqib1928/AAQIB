@@ -468,7 +468,9 @@
             </div>
           </div>
           <div class="col-lg-8">
-            <form action="contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form action="https://api.web3forms.com/submit" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <input type="hidden" name="access_key" value="9fbb085f-b7f1-4120-9ef4-954209990ef1">
+              <input type="hidden" name="from_name" value="Message From Portfolio">
               <div class="row gy-4">
                 <div class="col-md-6">
                   <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
@@ -486,7 +488,7 @@
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
-                  <button type="submit" disabled>Send Message</button>
+                  <button type="submit" name="submit">Send Message</button>
                 </div>
               </div>
             </form>
