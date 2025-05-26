@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAQIB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="user">
+            <h3>Muhmmad Aqib</h3>
+            <p>Web Developer</p>
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <div id="dark-theme" class="fas fa-sun"></div>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h2>Muhmmad<span>Aqib</span></h2>
+            <p>Web Developer</p>
+        </div>
+        <div class="share">
+            <a href="https://web.facebook.com/" class="fab fa-facebook-f"></a>
+            <a href="https://twitter.com/" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+            <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
+            <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading"><span>About</span> Me</h1>
+        <div class="row">
+            <div class="box-container">
+                <div class="box">
+                    <h3>2+</h3>
+                    <p>Years of Experience</p>
+                </div>
+                <div class="box">
+                    <h3>450+</h3>
+                    <p>Satisfied Clients</p>
+                </div>
+                <div class="box">
+                    <h3>190+</h3>
+                    <p>Working Hours</p>
+                </div>
+                <div class="box">
+                    <h3>10+</h3>
+                    <p>Awards Won</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="progress">
+                <h3>Web Design <span>90%</span></h3>
+                <div class="bar bar-1-1"><span></span></div>
+            </div>
+            <div class="progress">
+                <h3>HTML <span>95%</span></h3>
+                <div class="bar bar-2-1"><span></span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="heading">My <span>Services</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-code"></i>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-mobile"></i>
+                <h3>Responsive</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="box">
+                <i class="fab fa-wordpress"></i>
+                <h3>WordPress</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h1 class="heading">My <span>Portfolio</span></h1>
+        <div class="box-container">
+            <div class="box"><img src="./assets/project-1.jpg" alt="">
+                <div class="content">
+                    <h3>Project #1</h3>
+                </div>
+            </div>
+            <div class="box"><img src="./assets/project-2.jpg" alt="">
+                <div class="content">
+                    <h3>Project #2</h3>
+                </div>
+            </div>
+            <div class="box"><img src="./assets/project-3.jpg" alt="">
+                <div class="content">
+                    <h3>Project #3</h3>
+                </div>
+            </div>
+            <div class="box"><img src="./assets/project-4.jpg" alt="">
+                <div class="content">
+                    <h3>Project #4</h3>
+                </div>
+            </div>
+            <div class="box"><img src="./assets/project-5.jpg" alt="">
+                <div class="content">
+                    <h3>Project #5</h3>
+                </div>
+            </div>
+            <div class="box"><img src="./assets/project-6.jpg" alt="">
+                <div class="content">
+                    <h3>Project #6</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>Contact</span> Me</h1>
+        <form action="https://formsubmit.co/aqib21028@gamil.com" method="POST">
+            <input type="text" name="name" placeholder="Your Name" class="box" required>
+            <input type="email" name="email" placeholder="Your Email" class="box" required>
+            <input type="text" name="subject" placeholder="Subject" class="box" required>
+            <textarea name="message" class="box" placeholder="Your Message" cols="30" rows="10" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+
+    <div class="credits">Created By <span>AAQIB</span> | All Rights Reserved</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
