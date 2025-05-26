@@ -233,9 +233,9 @@ section {
 .about .row {
     margin-top: 10px;
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     flex-wrap: wrap-reverse;
-    gap: 2rem;
+    gap: 4rem;
 }
 
 .about .row .box-container {
