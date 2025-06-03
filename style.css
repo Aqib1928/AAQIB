@@ -211,6 +211,7 @@ section {
     border-radius: 0.5rem;
     box-shadow: var(--box-shadow);
     padding: 1rem;
+    margin: 1rem 0;
 }
 
 .home .share a {
@@ -226,6 +227,33 @@ section {
 }
 
 .home .share a:hover {
+    box-shadow: var(--box-shadow-inset);
+    color: var(--green);
+}
+
+.home .share1 {
+    position: relative;
+    top: 10rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--box-shadow);
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 27rem;
+}
+
+.home .share1 a {
+    text-decoration: none;
+    height: 5rem;
+    width: 11rem;
+    line-height: 5rem;
+    box-shadow: var(--box-shadow);
+    margin: 0.5rem;
+    font-size: 2rem;
+    color: var(--black);
+    border-radius: 0.5rem;
+}
+
+.home .share1 a:hover {
     box-shadow: var(--box-shadow-inset);
     color: var(--green);
 }
